@@ -1,65 +1,62 @@
-function Timeline() {
-  return (
-    <ul className="timeline md:timeline-horizontal timeline-vertical">
-      <li>
-        <div className="timeline-start timeline-box">
-          First Macintosh computer
-        </div>
-        <div className="timeline-middle">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-            className="h-5 w-5"
-          >
-            <path
-              fillRule="evenodd"
-              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-              clipRule="evenodd"
-            />
-          </svg>
-        </div>
-        <hr />
-      </li>
-      <li>
-        <hr />
-        <div className="timeline-middle">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-            className="h-5 w-5"
-          >
-            <path
-              fillRule="evenodd"
-              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-              clipRule="evenodd"
-            />
-          </svg>
-        </div>
-        <div className="timeline-end timeline-box">iPhone</div>
-        <hr />
-      </li>
-      <li>
-        <hr />
-        <div className="timeline-start timeline-box">Apple Watch</div>
-        <div className="timeline-middle">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-            className="h-5 w-5"
-          >
-            <path
-              fillRule="evenodd"
-              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-              clipRule="evenodd"
-            />
-          </svg>
-        </div>
-      </li>
-    </ul>
-  );
+interface TimelineItem {
+  id: number;
+  year: string;
+  title: string;
+  institution: string;
 }
 
-export default Timeline;
+interface TimelineProps {
+  items: TimelineItem[];
+}
+
+const Timeline: React.FC<TimelineProps> = ({ items }) => {
+  return (
+    <div className="w-full">
+      {/* Desktop */}
+      <div className="hidden md:block">
+        <div className="flex justify-between items-stretch space-x-4">
+          {items.map((item) => (
+            <div key={item.id} className="flex-1 text-center">
+              <div className="bg-test border border-zinc-800 rounded-lg p-3 shadow-lg flex flex-col justify-center min-h-20">
+                <div className="text-purple-400 font-bold text-xs mb-1">
+                  {item.year}
+                </div>
+                <h3 className="text-slate-50 font-bold text-sm mb-1">
+                  {item.title}
+                </h3>
+                <p className="text-purple-300 font-semibold text-xs">
+                  {item.institution}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Mobile */}
+      <div className="md:hidden">
+        <div className="space-y-3">
+          {items.map((item) => (
+            <div key={item.id} className="bg-test border border-zinc-800 rounded-lg p-3 shadow-lg">
+              <div className="flex justify-between items-center">
+                <div className="text-left">
+                  <h3 className="text-slate-50 font-bold text-sm mb-1">
+                    {item.title}
+                  </h3>
+                  <p className="text-purple-300 font-semibold text-xs">
+                    {item.institution}
+                  </p>
+                </div>
+                <div className="text-purple-400 font-bold text-xs">
+                  {item.year}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Timeline; 

@@ -1,4 +1,5 @@
 import Timeline from "../components/Timeline";
+import { educationData } from "../datas/education";
 
 function AboutSection() {
   return (
@@ -35,15 +36,17 @@ function AboutSection() {
         </div>
 
         {/* Formation */}
-        <div className="flex p-5 bg-test h-80 md:col-span-2 border border-zinc-800 rounded-2xl shadow-lg">
-          <div>
+        <div className="flex flex-col p-5 bg-test h-80 md:col-span-2 border border-zinc-800 rounded-2xl shadow-lg">
+          <div className="mb-4">
             <span className="relative inline-block">
               <span className="relative z-10 text-2xl font-bold">
                 Formation
               </span>
               <span className="absolute inset-x-0 top-1/2 h-1/2 bg-purple-900 z-0"></span>
             </span>
-            <Timeline />
+          </div>
+          <div className="flex-1 flex items-center">
+            <Timeline items={educationData} />
           </div>
         </div>
 
@@ -59,7 +62,7 @@ function AboutSection() {
           </div>
           <div className="flex flex-1 items-center justify-center">
             <a
-              href="/documents/cv-thomas.pdf"
+              href="/documents/CV_Thomas_Martin.pdf"
               download
               className="relative px-6 py-3 text-white font-mono text-lg font-semibold rounded-md bg-purple-900 hover:bg-purple-700 transition-colors duration-300 animate-bounce"
             >
