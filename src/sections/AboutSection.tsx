@@ -36,7 +36,7 @@ function AboutSection() {
         </div>
 
         {/* Formation */}
-        <div className="flex flex-col p-5 bg-test h-80 md:col-span-2 border border-zinc-800 rounded-2xl shadow-lg">
+        <div className="flex flex-col p-5 bg-test md:col-span-2 border border-zinc-800 rounded-2xl shadow-lg">
           <div className="mb-4">
             <span className="relative inline-block">
               <span className="relative z-10 text-2xl font-bold">

@@ -1,6 +1,6 @@
 interface TimelineItem {
   id: number;
-  year: string;
+  date: string;
   title: string;
   institution: string;
 }
@@ -19,7 +19,7 @@ const Timeline: React.FC<TimelineProps> = ({ items }) => {
             <div key={item.id} className="flex-1 text-center">
               <div className="bg-test border border-zinc-800 rounded-lg p-3 shadow-lg flex flex-col justify-center min-h-20">
                 <div className="text-purple-400 font-bold text-xs mb-1">
-                  {item.year}
+                  {item.date}
                 </div>
                 <h3 className="text-slate-50 font-bold text-sm mb-1">
                   {item.title}
@@ -48,7 +48,7 @@ const Timeline: React.FC<TimelineProps> = ({ items }) => {
                   </p>
                 </div>
                 <div className="text-purple-400 font-bold text-xs">
-                  {item.year}
+                  {item.date}
                 </div>
               </div>
             </div>

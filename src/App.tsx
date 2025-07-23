@@ -1,6 +1,7 @@
 import NavBar from "./components/NavBar";
 import HeroSection from "./sections/HeroSection";
 import AboutSection from "./sections/AboutSection";
+import ProXpSection from "./sections/ProXpSection";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <HeroSection />
       </div>
         <AboutSection />
+        <ProXpSection />
     </div>
   );
 }
