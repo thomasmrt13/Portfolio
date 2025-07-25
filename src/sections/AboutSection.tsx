@@ -4,7 +4,7 @@ import { educationData } from "../datas/education";
 function AboutSection() {
   return (
     <div className="w-full text-center py-10 sm:py-20 px-4 sm:px-10 md:px-20 xl:px-60">
-      <h1 className="text-7xl text-slate-50 font-bold">A propos de moi</h1>
+      <h1 className="text-5xl sm:text-7xl text-slate-50 font-bold">A propos de moi</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-20">
         {/* Avatat */}
         <div className="flex justify-center items-center p-10 bg-test min-h-80 border border-zinc-800 rounded-2xl shadow-lg">

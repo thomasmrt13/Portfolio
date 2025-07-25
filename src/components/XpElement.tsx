@@ -7,6 +7,8 @@ interface XpElementProps {
   image: string;
   company: string;
   technologies: string[];
+  className?: string;
+  style?: React.CSSProperties;
 }
 
 function XpElement({
@@ -15,9 +17,11 @@ function XpElement({
   image,
   company,
   technologies,
+  className = "",
+  style = {},
 }: XpElementProps) {
   return (
-    <div className="flex flex-col-reverse md:flex-row p-7 bg-zinc-800 rounded gap-4 items-center">
+    <div className={`flex flex-col-reverse md:flex-row p-7 bg-zinc-800 rounded gap-4 items-center ${className}`} style={style}>
       <div className="flex flex-col gap-2 h-full justify-center text-left flex-1">
         <div className="flex items-center gap-1 text-purple-600">
           <MapPinIcon className="h-4 w-4" />
