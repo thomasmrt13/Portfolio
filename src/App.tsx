@@ -3,7 +3,6 @@ import HeroSection from "./sections/HeroSection";
 import AboutSection from "./sections/AboutSection";
 import ProXpSection from "./sections/ProXpSection";
 import TechnoSection from "./sections/TechnoSection";
-import Footer from "./sections/Footer";
 import ScrollTopBtn from "./components/common/ScrollTopBtn";
 import FooterSection from "./sections/FooterSection";
 
