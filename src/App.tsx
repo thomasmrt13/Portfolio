@@ -1,7 +1,10 @@
-import NavBar from "./components/NavBar";
+import NavBar from "./components/navigation/NavBar";
 import HeroSection from "./sections/HeroSection";
 import AboutSection from "./sections/AboutSection";
 import ProXpSection from "./sections/ProXpSection";
+import TechnoSection from "./sections/TechnoSection";
+import Footer from "./sections/Footer";
+import ScrollTopBtn from "./components/common/ScrollTopBtn";
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
       </div>
         <AboutSection />
         <ProXpSection />
+        <TechnoSection />
+        <Footer />
+        <ScrollTopBtn />
     </div>
   );
 }

@@ -17,7 +17,7 @@ export const professionalsData: ProfessionalItem[] = [
     company: "Carrevolutis",
     description: "Participation à la maintenance et au développement des plateformes CARREVOLUTIS (Dogfinance.com, Tekkit.io, Bizzeo.co, admin, client). Contribution à la création de nouvelles fonctionnalités front-end et back-end dans un environnement Agile et au refactoring du code. Collaboration avec l’équipe pour résoudre les bugs rencontrés sur les plateformes.",
     technologies: ["React.js", "PHP", "Symphony", "TypeScript", "Scrum", "Git"],
-    image: "/images/logo.png",
+    image: "/images/logo-pro/logo.png",
     location: "Paris, France"
   },
   {
@@ -27,7 +27,7 @@ export const professionalsData: ProfessionalItem[] = [
     company: "Epitech",
     description: "Développement d'une application mobile Flutter pour l'accompagnement psychologique, intégrant l'API OpenAI pour fournir des réponses personnalisées aux utilisateurs. Conception de l'interface et gestion de l'état de l'application, ainsi que participation à la création de nouvelles fonctionnalités côté front-end et back-end dans un environnement Agile (Scrum).",
     technologies: ["Flutter", "Node.js", "MongoDB", "Scrum", "Git"],
-    image: "/images/epitech.png",
+    image: "/images/logo-pro/epitech.png",
     location: "Paris, France"
   },
   {
@@ -37,7 +37,17 @@ export const professionalsData: ProfessionalItem[] = [
     company: "SIDR",
     description: "Création d’un parcours conversationnel via Google Dialogflow, intégré à une application web Flutter. Mise en place d’une boîte de dialogue interactive avec des questions/réponses guidées par boutons et redirection dynamique selon les choix de l'utilisateur.",
     technologies: ["Flutter", "Google DialogFlow", "Git"],
-    image: "/images/logo-sidr.png",
-    location: "Paris, France"
+    image: "/images/logo-pro/logo-sidr.png",
+    location: "Saint-Denis, Réunion"
+  },
+  {
+    id: 4,
+    date: "2020",
+    title: "Stage Web Master",
+    company: "Cyclone Créations",
+    description: "Création d'un site wordpress pour l'agence de communication Cyclone Créations et mise à jour de deux autres sites wordpress pour des commerces.",
+    technologies: ["Wordpress", "PHP", "HTML", "CSS", "JavaScript"],
+    image: "/images/logo-pro/logo-sidr.png",
+    location: "Cannes, France"
   }
 ]

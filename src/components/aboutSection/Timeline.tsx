@@ -13,7 +13,7 @@ const Timeline: React.FC<TimelineProps> = ({ items }) => {
   return (
     <div className="w-full">
       {/* Desktop */}
-      <div className="hidden md:block">
+      <div className="hidden lg:block">
         <div className="flex justify-between items-stretch space-x-4">
           {items.map((item) => (
             <div key={item.id} className="flex-1 text-center">
@@ -34,7 +34,7 @@ const Timeline: React.FC<TimelineProps> = ({ items }) => {
       </div>
 
       {/* Mobile */}
-      <div className="md:hidden">
+      <div className="lg:hidden">
         <div className="space-y-3">
           {items.map((item) => (
             <div key={item.id} className="bg-test border border-zinc-800 rounded-lg p-3 shadow-lg">
