@@ -20,7 +20,7 @@ function FooterSection() {
           </div>
           <div className="flex flex-row gap-2 items-center">
             <img className="w-5 h-5" src={"/images/footer/linkedin-logo.svg"} />
-            <span className="text-white w-48 block">Linkedin</span>
+            <a href="www.linkedin.com/in/thomas-martin-6825611a0" className="text-white w-48 block hover:text-purple-700">Linkedin</a>
           </div>
         </div>
       </div>
