@@ -23,7 +23,7 @@ function NavBar() {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 h-20 px-4 sm:px-10 flex items-center bg-transparent md:backdrop-blur-xl">
       <div className="flex justify-between items-center w-full">
-        <img src={viteLogo} className="h-8" alt="Vite logo" />
+        {/*<img src={viteLogo} className="h-8" alt="Vite logo" />*/}
 
         {/* Desktop menu */}
         <ul className="hidden md:flex flex-1 justify-center items-center space-x-8">
@@ -42,7 +42,7 @@ function NavBar() {
 
         {/* Mobile menu overlay */}
         <MobileNavBar menuOpen={menuOpen} onMenuToggle={handleMenuToggle} onLinkClick={handleLinkClick} />
-        
+
         {/* Overlay background when menu is open */}
         {menuOpen && (
           <div className="fixed inset-0 bg-black bg-opacity-40 z-40 md:hidden" onClick={handleMenuToggle}></div>
