@@ -22,7 +22,7 @@ function HeroSection() {
         THOMAS MARTIN
       </h1>
       <br></br>
-      <h1 className="text-l md:text-3xl text-slate-50 font-semibold">
+      <h1 className="text-xl md:text-3xl text-slate-50 font-semibold">
         {text}
         <span className="animate-pulse">|</span>
       </h1>

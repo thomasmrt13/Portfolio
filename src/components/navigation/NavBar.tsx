@@ -21,7 +21,7 @@ function NavBar() {
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 h-20 px-4 sm:px-10 flex items-center bg-transparent md:backdrop-blur-xl">
-      <div className="flex justify-between items-center w-full">
+      <div className="flex justify-end items-center w-full">
         {/*<img src={viteLogo} className="h-8" alt="Vite logo" />*/}
 
         {/* Desktop menu */}
