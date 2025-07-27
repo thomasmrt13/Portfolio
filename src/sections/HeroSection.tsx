@@ -18,7 +18,7 @@ function HeroSection() {
 
   return (
     <div id="home" className="h-full">
-      <h1 className="text-6xl sm:text-8xl break-words text-slate-50 font-bold">
+      <h1 className="text-6xl sm:text-8xl lg:text-9xl break-words text-slate-50 font-bold">
         THOMAS MARTIN
       </h1>
       <br></br>

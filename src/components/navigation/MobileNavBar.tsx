@@ -15,10 +15,10 @@ function MobileNavBar({ onMenuToggle, onLinkClick, menuOpen }: MobileNavBarProps
             </button>
           </div>
           <ul className="flex flex-col items-center space-y-8 mt-10">
-            <li><a href="#home" className="text-white text-xl" onClick={(e) => onLinkClick(e, 'home')}>{'{'}Accueil{'}'}</a></li>
-            <li><a href="#about" className="text-white text-xl" onClick={(e) => onLinkClick(e, 'about')}>{'{'}À propos{'}'}</a></li>
-            <li><a href="#xp" className="text-white text-xl" onClick={(e) => onLinkClick(e, 'xp')}>{'{'}Expériences{'}'}</a></li>
-            <li><a href="#techno" className="text-white text-xl" onClick={(e) => onLinkClick(e, 'techno')}>{'{'}Technologies{'}'}</a></li>
+            <li><a href="#home" className="text-white text-xl" onClick={(e) => onLinkClick(e, 'home')}>Accueil</a></li>
+            <li><a href="#about" className="text-white text-xl" onClick={(e) => onLinkClick(e, 'about')}>À propos</a></li>
+            <li><a href="#xp" className="text-white text-xl" onClick={(e) => onLinkClick(e, 'xp')}>Expériences</a></li>
+            <li><a href="#techno" className="text-white text-xl" onClick={(e) => onLinkClick(e, 'techno')}>Technologies</a></li>
           </ul>
         </div>
     )
