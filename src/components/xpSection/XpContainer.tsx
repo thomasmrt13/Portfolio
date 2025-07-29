@@ -66,6 +66,7 @@ function XpContainer({ items }: XpContainerProps) {
                 image={item.image}
                 company={item.company}
                 technologies={item.technologies}
+                date={item.date}
               />
             )}
           </div>
