@@ -1,5 +1,3 @@
-import React from "react";
-
 function FooterMobile() {
   return (
     <footer className="flex flex-col items-center justify-center gap-4 p-6 mt-10 bg-test shadow-slate-100 shadow-lg md:hidden w-full">

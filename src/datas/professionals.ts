@@ -40,14 +40,4 @@ export const professionalsData: ProfessionalItem[] = [
     image: "/images/logo-pro/logo-sidr.png",
     location: "Saint-Denis, Réunion"
   },
-  {
-    id: 4,
-    date: "2020",
-    title: "Stage Web Master",
-    company: "Cyclone Créations",
-    description: "Création d'un site wordpress pour l'agence de communication Cyclone Créations et mise à jour de deux autres sites wordpress pour des commerces.",
-    technologies: ["Wordpress", "PHP", "HTML", "CSS", "JavaScript"],
-    image: "/images/logo-pro/logo-sidr.png",
-    location: "Cannes, France"
-  }
 ]
