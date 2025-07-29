@@ -52,15 +52,23 @@ function XpContainer({ items }: XpContainerProps) {
               </button>
             </div>
           </div>
-          {openIndexes.includes(index) && (
-            <XpElement
-              location={item.location}
-              description={item.description}
-              image={item.image}
-              company={item.company}
-              technologies={item.technologies}
-            />
-          )}
+          <div
+            style={{
+              maxHeight: openIndexes.includes(index) ? 500 : 0,
+              overflow: 'hidden',
+              transition: 'max-height 1s cubic-bezier(0.22, 1, 0.36, 1)',
+            }}
+          >
+            {openIndexes.includes(index) && (
+              <XpElement
+                location={item.location}
+                description={item.description}
+                image={item.image}
+                company={item.company}
+                technologies={item.technologies}
+              />
+            )}
+          </div>
         </>
       ))}
     </div>
