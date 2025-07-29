@@ -54,7 +54,7 @@ function XpContainer({ items }: XpContainerProps) {
           </div>
           <div
             style={{
-              maxHeight: openIndexes.includes(index) ? 500 : 0,
+              maxHeight: openIndexes.includes(index) ? 700 : 0,
               overflow: 'hidden',
               transition: 'max-height 1s cubic-bezier(0.22, 1, 0.36, 1)',
             }}
