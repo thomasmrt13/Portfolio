@@ -36,7 +36,7 @@ const Timeline: React.FC<TimelineProps> = ({ items }) => {
       {/* Mobile */}
       <div className="lg:hidden">
         <div className="space-y-3">
-          {items.map((item) => (
+          {[...items].reverse().map((item) => (
             <div key={item.id} className="bg-test border border-zinc-800 rounded-lg p-3 shadow-lg">
               <div className="flex justify-between items-center">
                 <div className="text-left">
