@@ -5,6 +5,7 @@ import ProXpSection from "./sections/ProXpSection";
 import TechnoSection from "./sections/TechnoSection";
 import ScrollTopBtn from "./components/common/ScrollTopBtn";
 import FooterSection from "./sections/FooterSection";
+import FooterMobile from "./components/footer/FooterMobile";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <ProXpSection />
         <TechnoSection />
         <FooterSection />
+        <FooterMobile />
         <ScrollTopBtn />
     </div>
   );
