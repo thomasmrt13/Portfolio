@@ -16,7 +16,7 @@ export const professionalsData: ProfessionalItem[] = [
     title: "Développeur Full Stack",
     company: "Carrevolutis",
     description: "Participation à la maintenance et au développement des plateformes CARREVOLUTIS (Dogfinance.com, Tekkit.io, Bizzeo.co, admin, client). Contribution à la création de nouvelles fonctionnalités front-end et back-end dans un environnement Agile et au refactoring du code. Collaboration avec l’équipe pour résoudre les bugs rencontrés sur les plateformes.",
-    technologies: ["React.js", "PHP", "Symphony", "TypeScript", "Scrum", "Git"],
+    technologies: ["React.js", "PHP", "Symphony", "TypeScript", "Scrum", "Git", "MySQL", ],
     image: "/images/logo-pro/logo.png",
     location: "Paris, France"
   },
