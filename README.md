@@ -1,4 +1,4 @@
-# 🧑‍💻 Mon Portfolio Développeur
+# 🧑‍💻 Mon site
 
 Bienvenue sur le dépôt de mon **site personnel**, développé avec **React**, **TypeScript** et **Tailwind CSS**.  
 Ce site a pour but de présenter mes compétences et me permettre de partager mon parcours professionnel.
