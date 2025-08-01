@@ -14,6 +14,6 @@ Ce site a pour but de présenter mes compétences et me permettre de partager mo
 - ⚛️ [React](https://reactjs.org/)
 - ⛑️ [TypeScript](https://www.typescriptlang.org/)
 - 💨 [Tailwind CSS](https://tailwindcss.com/)
-- 📦 [Vite](https://vitejs.dev/) (ou `Next.js`, `CRA`, selon ce que tu utilises)
-- 📁 Déploiement via [Vercel](https://vercel.com/) *(ou Netlify / GitHub Pages)*
+- 📦 [Vite](https://vitejs.dev/) 
+- 📁 Déploiement via [Vercel](https://vercel.com/) 
 
