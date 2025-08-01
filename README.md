@@ -5,7 +5,7 @@ Ce site a pour but de présenter mes compétences et me permettre de partager mo
 
 ## 🚀 Aperçu
 
-📍 [Voir le site en ligne](https://vercel.com/thomas-projects-c7b90d0e/thomas-martin-dev)
+📍 [Voir le site en ligne](https://thomas-martin-dev.vercel.app/)
 
 ---
 
@@ -14,10 +14,6 @@ Ce site a pour but de présenter mes compétences et me permettre de partager mo
 - ⚛️ [React](https://reactjs.org/)
 - ⛑️ [TypeScript](https://www.typescriptlang.org/)
 - 💨 [Tailwind CSS](https://tailwindcss.com/)
-- 📦 [Vite](https://vitejs.dev/) (ou `Next.js`, `CRA`, selon ce que tu utilises)
-- 📁 Déploiement via [Vercel](https://vercel.com/) *(ou Netlify / GitHub Pages)*
-
----
-
-## 📂 Structure du projet
+- 📦 [Vite](https://vitejs.dev/) 
+- 📁 Déploiement via [Vercel](https://vercel.com/) 
 
