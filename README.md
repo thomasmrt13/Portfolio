@@ -21,3 +21,13 @@ Ce site a pour but de présenter mes compétences et me permettre de partager mo
 
 ## 📂 Structure du projet
 
+├── public/ # Images statiques
+├── src/
+│ ├── components/ # Composants réutilisables
+│ ├── sections/ # Sections principales
+│ ├── data/ # Fichiers de données
+│ └── App.tsx
+├── tailwind.config.js
+├── tsconfig.json
+└── vite.config.ts
+
